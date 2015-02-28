@@ -1,3 +1,5 @@
-#mac files
+# mac files
 .DS_Store
 
+*~
+*.swp
