@@ -1,0 +1,19 @@
+digraph dir_logvolumegraph {
+	rankdir=LR;
+
+4 -> 4 [ label = "2012 10 12" ];
+4 -> 3 [ label = "2012 10 15" ];
+3 -> 3 [ label = "2012 10 16" ];
+3 -> 3 [ label = "2012 10 17" ];
+3 -> 4 [ label = "2012 10 18" ];
+4 -> 6 [ label = "2012 10 19" ];
+6 -> 3 [ label = "2012 10 22" ];
+3 -> 3 [ label = "2012 10 23" ];
+3 -> 5 [ label = "2012 10 24" ];
+5 -> 3 [ label = "2012 10 25" ];
+3 -> 3 [ label = "2012 10 26" ];
+
+
+overlap=false
+label="dir logvolumegraph"
+}

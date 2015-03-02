@@ -1,0 +1,12 @@
+digraph dir_intgraph {
+	rankdir=LR;
+
+9 -> 9 [ label = "2015 02 20" ];
+9 -> 9 [ label = "2015 02 23" ];
+9 -> 9 [ label = "2015 02 24" ];
+9 -> 10 [ label = "2015 02 25" ];
+10 -> 10 [ label = "2015 02 26" ];
+
+overlap=false
+label="dir intgraph"
+}
